@@ -1,0 +1,80 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.scgames" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Games 17</name>
+    <description>
+        Vom Kochkurs, über Stand Up Paddling im Lago Maggiore, von der Teamtrophy bis hin zum ultimativen Swisscomathlon. Auch 2017 bieten dir die Games unter dem Motto "share the spirit" verschiedenste sportliche Einzel- und Teamaktivitäten und attraktive Kulturangebote. So ist garantiert für alle etwas Passendes dabei.
+    </description>
+    <author email="samuel.luetolf@swisscom.com">
+        Samuel Luetolf
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <preference name="android-minSdkVersion" value="14" />
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+        <preference name="BackupWebStorage" value="none" />
+    </platform>
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <plugin name="cordova-plugin-whitelist" spec="~1.2.0" />
+    <plugin name="cordova-plugin-console" spec="~1.0.1" />
+    <plugin name="cordova-plugin-statusbar" spec="~1.0.1" />
+    <preference name="StatusBarStyle" value="blacktranslucent" />
+    <platform name="ios">
+              <!-- iOS 8.0+ -->
+              <!-- iPhone 6 Plus  -->
+              <icon src="res/ios/icon-60-3x.png" width="180" height="180" />
+              <!-- iOS 7.0+ -->
+              <!-- iPhone / iPod Touch  -->
+              <icon src="res/ios/icon-60.png" width="60" height="60" />
+              <icon src="res/ios/icon-60-2x.png" width="120" height="120" />
+              <!-- iPad -->
+              <icon src="res/ios/icon-76.png" width="76" height="76" />
+              <icon src="res/ios/icon-76-2x.png" width="152" height="152" />
+              <!-- iOS 6.1 -->
+              <!-- Spotlight Icon -->
+              <icon src="res/ios/icon-40.png" width="40" height="40" />
+              <icon src="res/ios/icon-40-2x.png" width="80" height="80" />
+              <!-- iPhone / iPod Touch -->
+              <icon src="res/ios/icon.png" width="57" height="57" />
+              <icon src="res/ios/icon-2x.png" width="114" height="114" />
+              <!-- iPad -->
+              <icon src="res/ios/icon-72.png" width="72" height="72" />
+              <icon src="res/ios/icon-72-2x.png" width="144" height="144" />
+              <!-- iPhone Spotlight and Settings Icon -->
+              <icon src="res/ios/icon-small.png" width="29" height="29" />
+              <icon src="res/ios/icon-small-2x.png" width="58" height="58" />
+              <!-- iPad Spotlight and Settings Icon -->
+              <icon src="res/ios/icon-50.png" width="50" height="50" />
+              <icon src="res/ios/icon-50-2x.png" width="100" height="100" />
+               <splash src="res/screen/ios/screen-iphone-portrait.png" width="320" height="480"/>
+               <splash src="res/screen/ios/screen-iphone-portrait-2x.png" width="640" height="960"/>
+               <splash src="res/screen/ios/screen-iphone-portrait-568h-2x.png" width="640" height="1136"/>
+               <splash src="res/screen/ios/screen-iphone-portrait-667h.png" width="750" height="1334"/>
+               <splash src="res/screen/ios/screen-iphone-portrait-736h.png" width="1242" height="2208"/>
+     </platform>
+     <platform name="android">
+              <icon src="res/android/ldpi.png" density="ldpi" />
+              <icon src="res/android/mdpi.png" density="mdpi" />
+              <icon src="res/android/hdpi.png" density="hdpi" />
+              <icon src="res/android/xhdpi.png" density="xhdpi" />
+              <icon src="res/android/xxhdpi.png" density="xhdpi" />
+              <icon src="res/android/xxxhdpi.png" density="xhdpi" />
+              <splash src="res/screen/android/screen-hdpi-portrait.png" density="port-hdpi"/>
+              <splash src="res/screen/android/screen-ldpi-portrait.png" density="port-ldpi"/>
+              <splash src="res/screen/android/screen-mdpi-portrait.png" density="port-mdpi"/>
+              <splash src="res/screen/android/screnn-xhdpi-portrait.png" density="port-xhdpi"/>
+     </platform>
+
+    
+</widget>

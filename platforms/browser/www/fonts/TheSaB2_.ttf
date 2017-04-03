@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>Seite nicht gefunden – 404 Fehler | Swisscom</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+      content="Swisscom Privatkunden - jederzeit und überall die passenden Angebote und Services rund um Kommunikation und Unterhaltung." />
+    <meta name="robots" content="NOODP,index,follow" />
+    <link rel="author" title="Swisscom"
+      href="https://plus.google.com/116503069960955784178" />
+    <link rel="shortcut icon" type="image/x-icon"
+      href="/errorpages_resp/img/favicon.png" />
+    <link rel="stylesheet" href="/errorpages_resp/css/style.css" type="text/css">
+    <link rel="stylesheet"
+      href="/errorpages_resp/css/default.css"
+      type="text/css" />
+    <style>
+      body {
+        background: url(/errorpages_resp/img/pixel.png) repeat-x 0px 0px;
+      }
+      h1 {
+      margin: 10px 0;
+      }
+    </style>
+    <script src="/errorpages_resp/js/init.js"></script>
+  </head>
+  <body>
+    <div class="scs-pageheader">
+      <div class="scs-pageheader-themeDark">
+        <div id="scs-pageheader-toolbar">
+          <div class="pageCenter">
+            <div class="branchnav">
+            </div>
+          </div>
+        </div>
+        <div class="pageCenter">
+          <span id="scs-pageheader-logo">
+            <a tabindex="-1"
+              href="//www.swisscom.ch/de/privatkunden.html">
+              <div class="logo">
+                <img
+                  src="/errorpages_resp/img/logo.png"
+                  alt="Home" title="Residential Customers Home"
+                  id="logo-swisscom-image" />
+              </div>
+              <span class="logotype">&#xF000;</span>
+            </a>
+          </span>
+          <div id="scs-pageheader-customelements"></div>
+          <div class="clear"></div>
+        </div>
+      </div>
+    </div>
+    <div class="page">
+      <div class="text">
+        <div class="left">
+          <div class="glass"></div>
+        </div>
+        <div class="right">
+          <h1>Entschuldigung</h1>
+          <div class="textwrapper">
+            <p>
+              Wir konnten die von Ihnen gesuchte Seite leider nicht finden.
+            </p>
+          </div>
+          <div class="linkwrapper">
+            <h2>Vielleicht helfen Ihnen diese Links weiter:</h2>
+            <div class="linksdiv">
+              <a href="//www.swisscom.ch">
+                <span class="link-list-item">Zur Swisscom Startseite</span>
+              </a>
+              <br>
+              <a href="javascript: history.back();">
+                <span class="link-list-item">Zurück zur vorherigen Seite</span>
+              </a>
+              <p>
+
+              <a href="//www.swisscom.ch/de/privatkunden/hilfe/kontakt.html">
+                <span class="link-list-item">Kontakt für Privatpersonen</span>
+              </a>
+              <br>
+              <a href="//www.swisscom.ch/de/business/kmu/help/contact-possibilities.html">
+                <span class="link-list-item">Kontakt für KMU Kunden</span>
+              </a>
+              <br>
+              <a href="//www.swisscom.ch/de/business/enterprise/formulare/kontakt.html">
+                <span class="link-list-item">Kontakt für Enterprise Kunden</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="clear">&nbsp;</div>
+      </div>
+    </div>
+    <div class="teaserDiv"></div>
+    <div class="footer">
+      <div class="page">
+        <div id="scs-pagefooter-metanav">
+          <ul>
+            <li><a
+              href="//www.swisscom.ch/de/privatkunden/rechtliches.html">Rechtliches</a></li>
+            <li><a
+              href="//www.swisscom.ch/de/privatkunden/impressum.html">Impressum</a></li>
+            <li><a
+              href="//www.swisscom.ch/de/privatkunden/hilfe/kontakt.html">Kontakt</a></li>
+          </ul>
+          <span class="copyrightDiv">&copy; Copyright Swisscom AG</span>
+        </div>
+      </div>
+    </div>
+      <script type="text/javascript">
+        <!-- SiteCatalyst Tracking -->
+        var tm=new Date,sed=Math&&Math.random?Math.floor(Math.random()*10000000000000):tm.getTime(),sess='s'+Math.floor(tm.getTime()/10800000)%10+sed;
+        var prop43 = "CQ5:404 Not Found:" + document.location;
+        var url = "https://so.swisscom.ch/b/ss/swisscom-onelive/1/H.24.2/" + sess + "?AQB=1&pageName=&pageType=errorPage&c43=" + encodeURIComponent(prop43) + "&r=" + encodeURIComponent(document.referrer) + "&AQE=1";
+        document.write('<img src="'+url+'" width="2" height="2" />');
+      </script>
+  </body>
+</html>

@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+  </head>
+  <body>
+
+    <script class="iscroll_script" type="text/javascript" src="js/iscroll-zoom.js"></script>  
+      
+    <!-- Status bar overlay for fullscreen mode-->
+    <div class="statusbar-overlay"></div>
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Views, and they are tabs-->
+    <!-- We need to set "toolbar-through" class on it to keep space for our tab bar-->
+    <div class="views tabs toolbar-through">
+      <!-- Your first view, it is also a .tab and should have "active" class to make it visible by default-->
+      <div id="view-1" class="view view-main tab active">
+        <!-- Pages-->
+        <div class="pages">
+          <!-- Page, data-page contains page name-->
+          <div data-page="index-1" class="page">
+            <!-- Scrollable page content-->
+            <div class="page-content">
+                    
+                <div class="activity-item" id="1" title="beachvolleyball" style="background: url(img/beachvolleyball.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Beachvolleyball</h3>
+                 </div>
+                </div>
+                <div class="activity-item" id="2" title="aikido" style="background: url(img/aikido.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Aikido</h3>
+                 </div>
+                </div>
+                <div class="activity-item" id="3" title="aqua-gym" style="background: url(img/aqua_gym.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Aqua Gym</h3>
+                 </div>
+                </div>
+                <div class="activity-item" id="4" title="beachsoccer" style="background: url(img/beachsoccer.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Beachsoccer</h3>
+                 </div>
+                </div>
+                <div class="activity-item" id="5" title="bodycut" style="background: url(img/bodycut.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Bodycut</h3>
+                 </div>
+                </div>
+                <div title="bogenschiessen" id="6" style="background: url(img/bogenschiessen.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Bogenschiessen</h3>
+                 </div>
+                </div>
+                <div class="activity-item" id="7" title="beachvolleyball" style="background: url(img/beachvolleyball.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Beachvolleyball</h3>
+                 </div>
+                </div>
+                <div class="activity-item" id="8" title="aikido" style="background: url(img/aikido.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Aikido</h3>
+                 </div>
+                </div>
+                <div class="activity-item" id="9" title="aqua-gym" style="background: url(img/aqua_gym.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Aqua Gym</h3>
+                 </div>
+                </div>
+                <div class="activity-item" id="10" title="beachsoccer" style="background: url(img/beachsoccer.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Beachsoccer</h3>
+                 </div>
+                </div>
+                <div class="activity-item" id="11" title="bodycut" style="background: url(img/bodycut.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Bodycut</h3>
+                 </div>
+                </div>
+                <div class="activity-item" id="12" title="bogenschiessen" style="background: url(img/bogenschiessen.jpg)">
+                 <div class="meta-wrap">
+                  <h3 class="event-title">Bogenschiessen</h3>
+                 </div>
+                </div>      
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Second view (for second wrap)-->
+      <div id="view-2" class="view tab">
+        <div class="pages">
+          <div data-page="index-2" class="page">
+            <div class="page-content">
+                
+                <div id="wrapper">
+                    <div id="scroller">
+                        <img class="map-img" src="img/tenero.png" alt="tenero">
+                        <!--<div class="locator"></div>-->
+                    </div>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Bottom Tabbar-->
+      <div class="toolbar tabbar tabbar-labels">
+        <div class="toolbar-inner"><a href="#view-1" class="tab-link link-home active"> <i class="icon tabbar-demo-icon-1"></i><span class="tabbar-label">Information</span></a><a href="#view-2" class="tab-link link-map"><i class="icon tabbar-demo-icon-2"></i><span class="tabbar-label">Inbox</span></a></div>
+      </div>
+    </div>
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="js/framework7.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+      
+    
+<script type="text/javascript">
+ 
+$$ = Dom7;    
+    
+    var myScroll;
+    
+    $$('.link-map').on('click', function(){
+
+        function loaded() {
+            myScroll = new IScroll('#wrapper', {
+                zoom: true,
+                mouseWheel: true,
+                wheelAction: 'zoom',
+                scrollX: true,
+                scrollY: true,
+                freeScroll: true,
+                bounce: true,
+                scroll: true,
+                zoomStart: 1.8,
+                zoomMin: 0.4,
+                zoomMax: 1.8
+
+            });
+        }
+        
+        loaded();
+
+        document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+    
+    });
+    
+    $$('.link-home').on('click', function(){
+        console.log('hi')
+        /*myScroll.destroy();
+        myScroll = null;*/
+        $$('.iscroll_script').remove();
+       
+    });
+    
+    
+</script>  
+      
+  </body>
+</html>

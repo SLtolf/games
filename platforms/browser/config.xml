@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.phonegap.scgames" version="1.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Games 17</name>
+    <description>
+        Vom Kochkurs, über Stand Up Paddling im Lago Maggiore, von der Teamtrophy bis hin zum ultimativen Swisscomathlon. Auch 2017 bieten dir die Games unter dem Motto "share the spirit" verschiedenste sportliche Einzel- und Teamaktivitäten und attraktive Kulturangebote. So ist garantiert für alle etwas Passendes dabei.
+    </description>
+    <author email="samuel.luetolf@swisscom.com">
+        Samuel Luetolf
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="Orientation" value="portrait" />
+    <preference name="StatusBarStyle" value="blacktranslucent" />
+</widget>
